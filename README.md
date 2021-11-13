@@ -2,7 +2,7 @@
 This is a quick implementation of paper [Unpaired Image-to-Image Translation
 using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
 
-
+To run the code, download horse2zebra dataset and run CycleGan.py
 ## Some results
 #### zebra-to-horse
 
