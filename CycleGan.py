@@ -61,7 +61,6 @@ scheduler_D_z = torch.optim.lr_scheduler.StepLR(optim_D_z, step_size=100, gamma=
 
 ##############################
 
-####################Adam vs sgd#####################
 
 
 
@@ -116,17 +115,6 @@ for e in range(epochs):
 		optim_G.step()
 
 	
-	# for data in train_dataloader:
-	# 	images_horse = data["horse"].to('cuda')
-	# 	images_zebra = data["zebra"].to('cuda')
-
-
-	# 	labels_horse = torch.ones((len(images_horse),1)).to('cuda')
-	# 	labels_zebra = torch.ones((len(images_zebra),1)).to('cuda')
-		
-	# 	fake_labels_horse = torch.ones((len(labels_horse),1)).to('cuda')
-	# 	fake_labels_zebra = torch.ones((len(labels_zebra),1)).to('cuda')
-
 
 
 		# optimize discrimator horse
