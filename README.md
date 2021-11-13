@@ -6,4 +6,4 @@ using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pd
 ## Some results
 #### horse-to-zebra
 
-![plot](./img/img_fake_horse12.png)
+![plot](./img/img_fake_horse12.png)(./img/img_real_zebra12.png)
